@@ -6,11 +6,19 @@
              mc:Ignorable="d"
              x:Class="E2KMovil.MainPage">
 
-    <StackLayout>
-        <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-    </StackLayout>
+    <Grid x:Name="MiGrilla">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+            <ColumnDefinition />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <!--<Button Content="Button" Grid.ColumnSpan="3" Height="98" Margin="140,316,0,0" Grid.Row="2" VerticalAlignment="Top" Width="1184"/>-->
+    </Grid>   
 
 </ContentPage>
